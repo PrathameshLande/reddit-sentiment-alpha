@@ -1,0 +1,14 @@
+# Reddit Sentiment Alpha Signal — Python dependencies
+# Install everything with: pip install -r requirements.txt
+
+praw==7.7.1           # Reddit API wrapper — scrapes posts
+pandas==2.2.2         # Data tables (like Excel, but in Python)
+yfinance==0.2.40      # Free stock price data from Yahoo Finance
+transformers==4.41.1  # HuggingFace — runs the FinBERT AI model
+torch==2.3.0          # PyTorch — required engine for FinBERT
+vaderSentiment==3.3.2 # Fast rule-based sentiment (our baseline)
+streamlit==1.35.0     # Turns Python into a live web dashboard
+plotly==5.22.0        # Interactive charts inside Streamlit
+scipy==1.13.1         # Statistical functions (Spearman correlation)
+python-dotenv==1.0.1  # Loads secrets from .env file safely
+requests==2.32.3      # HTTP requests (utility)
